@@ -1,0 +1,40 @@
+package ejercicioGatoPkg;
+
+public class Gato {
+	
+	private String nombre;
+	private String genero;
+	private int edad;
+	private String color;
+	private float peso;
+	
+	public void respirar() {
+		System.out.println("Estoy respirando");
+		
+	}
+	public void comer(String comida) {
+		System.out.println("Estoy comiendo"+comida);
+		
+	}
+	
+	public void correr(String destino) {
+		System.out.println("Estoy corriendo hacia el"+destino);
+	}
+	
+	public void dormir(int hours) {
+		System.out.println("Estoy durmiendo "+hours);
+		
+	}
+	public void maullar(String maullar) {
+		System.out.println("miaauuuuu");
+	}
+
+	
+
+	
+
+	
+	
+	
+
+}
